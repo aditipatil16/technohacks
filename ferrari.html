@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari</title>
+    <style>
+        /* Header Styles */
+        header {
+            background: linear-gradient(to bottom, red, black);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            float:right;
+        }
+
+        .main {
+            color: white;
+            text-decoration: none;
+            margin: 0 500px;
+            float:center;
+            font-size: xx-large ;
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin-top :20px ;
+            padding: 20px;
+            justify-content: center;
+            margin-left: 40px;
+            
+        }
+
+        .tagline {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .car-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .car-images img {
+            max-width: 300px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .info {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <p class="main">Ferrari</p>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="tagline">Experience the Italian Engineering in Ferrari</div>
+    
+
+        <div class="car-images">
+            <img src="ferrari1.jpg.jpeg" alt="Ferrari 1">
+            <img src="ferrari2.jpg.jpeg" alt="Ferrari 2">
+            <img src="ferrari3.jpg.jpeg" alt="Ferrari 3">
+        </div>
+
+        <div class="info">
+            <p>Ferrari is a legendary Italian sports car manufacturer known for its luxury and performance vehicles.</p>
+            <p>With a rich history in motorsports, Ferrari has created some of the world's most iconic and sought-after cars.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Ferrari. All rights reserved.
+    </footer>
+</body>
+</html>
